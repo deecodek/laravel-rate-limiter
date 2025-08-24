@@ -3,10 +3,11 @@
     "description": "Enterprise-grade rate limiting for Laravel APIs with quotas, analytics, and abuse protection.",
     "type": "library",
     "keywords": ["laravel", "rate-limit", "throttling", "api", "security"],
+    "homepage": "https://github.com/deecodek/advanced-laravel-rate-limiter",
     "license": "MIT",
     "authors": [
         {
-            "name": "Deepak Repositories",
+            "name": "Deecodek",
             "email": "deepakddm1@gmail.com"
         }
     ],
@@ -39,6 +40,6 @@
             ]
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
