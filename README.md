@@ -35,6 +35,10 @@ An enterprise-grade rate limiting package for Laravel APIs. Provides multi-dimen
     ```bash
     composer require deecodek/rate-limiter
     ```
+    If it doesnt work try using dev mode
+    ```bash
+composer require deecodek/rate-limiter:dev-main
+    ```
 
 2.  **Publish Configuration & Migrations:**
     Publish the package's configuration file and migration files:
