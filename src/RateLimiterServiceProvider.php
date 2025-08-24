@@ -41,6 +41,7 @@ class RateLimiterServiceProvider extends ServiceProvider
 
     public function boot()
     {
+        $this->app['router']->aliasMiddleware('rate-limit', RateLimitMiddleware::class);
         // Publish config
         $this->publishes([
             __DIR__.'/../config/rate-limiter.php' => config_path('rate-limiter.php'),
